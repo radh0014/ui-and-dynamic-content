@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Widget</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="widget-container">
+        <div class="masthead">
+            <div class="shopping-icon">
+                <i class="fas fa-shopping-basket"></i>
+            </div>
+            <div class="masthead-content">
+                <h1>BUY<br>GROCERIES</h1>
+                <p class="tagline">What do you need to buy today?</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="input-group">
+                <input type="text" id="item-input" placeholder="your item here...">
+                <p class="feedback"></p>
+            </div>
+            
+            <button id="add-button">ADD TO LIST</button>
+            
+            <ul id="grocery-list"></ul>
+        </div>
+        
+        <div class="footer">
+            <a href="#" class="social-icon"><i class="fab fa-google-plus"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
